@@ -32,3 +32,52 @@ System.IO.DirectoryNotFoundException: Could not find a part of the path 'C:\Prog
 2023-02-20 07:28:53,452 INFO  - Started process 9964
 2023-02-20 07:28:53,468 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
 2023-02-20 07:28:53,472 INFO  - Recording PID of the started process:9964. PID file destination is C:\ProgramData\Jenkins\jenkins.pid
+2023-02-22 08:58:24,448 DEBUG - Starting WinSW in the CLI mode
+2023-02-22 08:58:25,856 INFO  - Restarting the service with id 'jenkins'
+2023-02-22 08:58:25,856 DEBUG - Completed. Exit code is 0
+2023-02-22 08:58:26,028 DEBUG - Starting WinSW in the CLI mode
+2023-02-22 08:58:26,560 INFO  - Restarting the service with id 'jenkins'
+2023-02-22 08:58:26,638 INFO  - Stopping jenkins
+2023-02-22 08:58:26,638 DEBUG - ProcessKill 9964
+2023-02-22 08:58:26,779 INFO  - Found child process: 4864 Name: conhost.exe
+2023-02-22 08:58:26,872 INFO  - Stopping process 4864
+2023-02-22 08:58:26,888 INFO  - Send SIGINT 4864
+2023-02-22 08:58:26,888 WARN  - SIGINT to 4864 failed - Killing as fallback
+2023-02-22 08:58:26,888 INFO  - Stopping process 9964
+2023-02-22 08:58:26,904 INFO  - Send SIGINT 9964
+2023-02-22 08:58:26,904 WARN  - SIGINT to 9964 failed - Killing as fallback
+2023-02-22 08:58:26,904 INFO  - Finished jenkins
+2023-02-22 08:58:26,904 DEBUG - Completed. Exit code is 0
+2023-02-22 08:58:28,546 DEBUG - Starting WinSW in the service mode
+2023-02-22 08:58:28,561 DEBUG - Completed. Exit code is 0
+2023-02-22 08:58:28,577 INFO  - Starting C:\Program Files\Java\jdk-11\\bin\java.exe -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "D:\Jenkins\jenkins.war" --httpPort=8080 --webroot="C:\ProgramData\Jenkins\war"
+2023-02-22 08:58:28,577 INFO  - Extension loaded: killOnStartup
+2023-02-22 08:58:28,593 DEBUG - Checking the potentially runaway process with PID=9964
+2023-02-22 08:58:28,608 DEBUG - No runaway process with PID=9964. The process has been already stopped.
+2023-02-22 08:58:28,624 INFO  - Started process 7772
+2023-02-22 08:58:28,639 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2023-02-22 08:58:28,639 INFO  - Recording PID of the started process:7772. PID file destination is C:\ProgramData\Jenkins\jenkins.pid
+2023-02-22 09:01:14,885 INFO  - Stopping jenkins
+2023-02-22 09:01:14,885 DEBUG - ProcessKill 7772
+2023-02-22 09:01:15,072 WARN  - Failed to locate children of the process with PID=7772. Child processes won't be terminated
+System.Runtime.InteropServices.COMException (0x80040154): Class not registered
+
+   at System.Runtime.InteropServices.Marshal.ThrowExceptionForHRInternal(Int32 errorCode, IntPtr errorInfo)
+   at System.Management.ManagementScope.InitializeGuts(Object o)
+   at System.Management.ManagementScope.Initialize()
+   at System.Management.ManagementObjectSearcher.Initialize()
+   at System.Management.ManagementObjectSearcher.Get()
+   at winsw.Util.ProcessHelper.GetChildPids(Int32 pid)
+2023-02-22 09:01:15,088 INFO  - Stopping process 7772
+2023-02-22 09:01:15,088 INFO  - Send SIGINT 7772
+2023-02-22 09:01:15,275 INFO  - SIGINT to 7772 successful
+2023-02-22 09:01:15,291 INFO  - Finished jenkins
+2023-02-22 09:01:15,291 DEBUG - Completed. Exit code is 0
+2023-02-22 09:01:34,180 DEBUG - Starting WinSW in the service mode
+2023-02-22 09:01:34,349 INFO  - Starting C:\Program Files\Java\jdk-11\\bin\java.exe -Xrs -Xmx256m -Dhudson.lifecycle=hudson.lifecycle.WindowsServiceLifecycle -jar "D:\Jenkins\jenkins.war" --httpPort=8080 --webroot="C:\ProgramData\Jenkins\war"
+2023-02-22 09:01:34,392 INFO  - Extension loaded: killOnStartup
+2023-02-22 09:01:34,408 DEBUG - Checking the potentially runaway process with PID=7772
+2023-02-22 09:01:34,435 DEBUG - No runaway process with PID=7772. The process has been already stopped.
+2023-02-22 09:01:34,499 INFO  - Started process 5988
+2023-02-22 09:01:34,520 DEBUG - Forwarding logs of the process System.Diagnostics.Process (java) to winsw.SizeBasedRollingLogAppender
+2023-02-22 09:01:34,546 INFO  - Recording PID of the started process:5988. PID file destination is C:\ProgramData\Jenkins\jenkins.pid

@@ -490,3 +490,81 @@ WARNING: All illegal access operations will be denied in a future release
 2023-02-21 01:32:17.772+0000 [id=52]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
 2023-02-21 01:32:17.772+0000 [id=52]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
 2023-02-21 01:32:17.788+0000 [id=50]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.719+0000 [id=53]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.750+0000 [id=54]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.766+0000 [id=49]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.766+0000 [id=48]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.844+0000 [id=47]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.844+0000 [id=47]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.907+0000 [id=58]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.907+0000 [id=58]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.907+0000 [id=58]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.907+0000 [id=58]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.907+0000 [id=48]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.922+0000 [id=48]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.922+0000 [id=48]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.922+0000 [id=48]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.922+0000 [id=48]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.922+0000 [id=48]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.938+0000 [id=48]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.938+0000 [id=48]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:34:49.938+0000 [id=48]	INFO	hudson.model.AsyncPeriodicWork#doRun: Periodic background build discarder thread is still running. Execution aborted.
+2023-02-22 01:59:05.498+0000 [id=1161]	INFO	hudson.util.Retrier#start: Attempt #1 to do the action check updates server
+2023-02-22 01:59:30.246+0000 [id=1161]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tasks.Maven.MavenInstaller
+2023-02-22 01:59:31.560+0000 [id=1161]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.tasks.Ant.AntInstaller
+2023-02-22 01:59:33.591+0000 [id=1161]	INFO	h.m.DownloadService$Downloadable#load: Obtained the updated data file for hudson.plugins.gradle.GradleInstaller
+2023-02-22 01:59:33.591+0000 [id=1161]	INFO	hudson.util.Retrier#start: Performed the action check updates server successfully at the attempt #1
+2023-02-22 03:26:29.468+0000 [id=1139]	INFO	hudson.PluginManager#install: Starting installation of a batch of 1 plugins plus their dependencies
+2023-02-22 03:26:30.598+0000 [id=1338]	INFO	h.model.UpdateCenter$DownloadJob#run: Starting the installation of role-strategy on behalf of admin
+2023-02-22 03:26:30.598+0000 [id=1338]	INFO	h.m.UpdateCenter$UpdateCenterConfiguration#download: Downloading role-strategy
+2023-02-22 03:28:14.038+0000 [id=1346]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Restart in 10 seconds
+2023-02-22 03:28:24.042+0000 [id=1346]	INFO	hudson.lifecycle.Lifecycle#onStop: Stopping Jenkins as requested by admin
+2023-02-22 03:28:24.042+0000 [id=1346]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Stopping Jenkins
+2023-02-22 03:28:24.120+0000 [id=1346]	INFO	jenkins.model.Jenkins$16#onAttained: Started termination
+2023-02-22 03:28:24.120+0000 [id=1346]	INFO	h.p.b.global.Lifecycle#shutdown: Shutdown complete - Global TimeOut ScheduledExecutorService had 0 tasks pending
+2023-02-22 03:28:24.151+0000 [id=1346]	INFO	jenkins.model.Jenkins$16#onAttained: Completed termination
+2023-02-22 03:28:24.151+0000 [id=1346]	INFO	jenkins.model.Jenkins#_cleanUpDisconnectComputers: Starting node disconnection
+2023-02-22 03:28:24.167+0000 [id=1346]	INFO	jenkins.model.Jenkins#_cleanUpShutdownPluginManager: Stopping plugin manager
+2023-02-22 03:28:24.198+0000 [id=1346]	INFO	jenkins.model.Jenkins#_cleanUpPersistQueue: Persisting build queue
+2023-02-22 03:28:24.214+0000 [id=1346]	INFO	jenkins.model.Jenkins#_cleanUpAwaitDisconnects: Waiting for node disconnection completion
+2023-02-22 03:28:24.214+0000 [id=1346]	INFO	hudson.lifecycle.Lifecycle#onStatusUpdate: Jenkins stopped
+2023-02-22 03:28:24.276+0000 [id=1139]	WARNING	h.s.HttpSessionContextIntegrationFilter2#hasInvalidSessionSeed: Encountered IllegalStateException trying to get a user. System init may not have completed yet. Invalidating user session.
+2023-02-22 03:28:30.281+0000 [id=1]	INFO	winstone.Logger#logInternal: Beginning extraction from war file
+2023-02-22 03:28:30.390+0000 [id=1]	WARNING	o.e.j.s.handler.ContextHandler#setContextPath: Empty contextPath
+2023-02-22 03:28:30.546+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: jetty-10.0.12; built: 2022-09-14T01:54:40.076Z; git: 408d0139887e27a57b54ed52e2d92a36731a7e88; jvm 11.0.18+9-LTS-195
+2023-02-22 03:28:32.246+0000 [id=1]	INFO	o.e.j.w.StandardDescriptorProcessor#visitServlet: NO JSP Support for /, did not find org.eclipse.jetty.jsp.JettyJspServlet
+2023-02-22 03:28:32.403+0000 [id=1]	INFO	o.e.j.s.s.DefaultSessionIdManager#doStart: Session workerName=node0
+2023-02-22 03:28:33.950+0000 [id=1]	INFO	hudson.WebAppMain#contextInitialized: Jenkins home directory: C:\ProgramData\Jenkins\.jenkins found at: EnvVars.masterEnvVars.get("JENKINS_HOME")
+2023-02-22 03:28:34.325+0000 [id=1]	INFO	o.e.j.s.handler.ContextHandler#doStart: Started w.@7c974942{Jenkins v2.375.3,/,file:///C:/ProgramData/Jenkins/war/,AVAILABLE}{C:\ProgramData\Jenkins\war}
+2023-02-22 03:28:34.388+0000 [id=1]	INFO	o.e.j.server.AbstractConnector#doStart: Started ServerConnector@68e5eea7{HTTP/1.1, (http/1.1)}{0.0.0.0:8080}
+2023-02-22 03:28:34.435+0000 [id=1]	INFO	org.eclipse.jetty.server.Server#doStart: Started Server@6f27a732{STARTING}[10.0.12,sto=0] @5708ms
+2023-02-22 03:28:34.435+0000 [id=26]	INFO	winstone.Logger#logInternal: Winstone Servlet Engine running: controlPort=disabled
+2023-02-22 03:28:35.185+0000 [id=32]	INFO	jenkins.InitReactorRunner$1#onAttained: Started initialization
+2023-02-22 03:28:36.029+0000 [id=31]	INFO	jenkins.InitReactorRunner$1#onAttained: Listed all plugins
+2023-02-22 03:28:45.575+0000 [id=38]	INFO	jenkins.InitReactorRunner$1#onAttained: Prepared all plugins
+2023-02-22 03:28:45.638+0000 [id=35]	INFO	jenkins.InitReactorRunner$1#onAttained: Started all plugins
+2023-02-22 03:28:45.653+0000 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: Augmented all extensions
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by org.codehaus.groovy.vmplugin.v7.Java7$1 (file:/C:/ProgramData/Jenkins/war/WEB-INF/lib/groovy-all-2.4.21.jar) to constructor java.lang.invoke.MethodHandles$Lookup(java.lang.Class,int)
+WARNING: Please consider reporting this to the maintainers of org.codehaus.groovy.vmplugin.v7.Java7$1
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+2023-02-22 03:28:47.050+0000 [id=39]	INFO	h.p.b.g.GlobalTimeOutConfiguration#load: global timeout not set
+2023-02-22 03:28:48.626+0000 [id=45]	INFO	jenkins.InitReactorRunner$1#onAttained: System config loaded
+2023-02-22 03:28:48.626+0000 [id=36]	INFO	jenkins.InitReactorRunner$1#onAttained: System config adapted
+2023-02-22 03:28:48.767+0000 [id=40]	INFO	jenkins.InitReactorRunner$1#onAttained: Loaded all jobs
+2023-02-22 03:28:48.798+0000 [id=32]	INFO	jenkins.InitReactorRunner$1#onAttained: Configuration for all jobs updated
+2023-02-22 03:28:49.017+0000 [id=46]	INFO	jenkins.InitReactorRunner$1#onAttained: Completed initialization
+2023-02-22 03:28:49.220+0000 [id=24]	INFO	hudson.lifecycle.Lifecycle#onReady: Jenkins is fully up and running
+2023-02-22 03:29:10.516+0000 [id=19]	WARNING	hudson.security.csrf.CrumbFilter#doFilter: Found invalid crumb 21fbc98b59416cb33fe56ee100143704c81899bd38b7f5a87332f4c767c8075a. If you are calling this URL with a script, please use the API Token instead. More information: https://www.jenkins.io/redirect/crumb-cannot-be-used-for-script
+2023-02-22 03:29:10.524+0000 [id=19]	WARNING	hudson.security.csrf.CrumbFilter#doFilter: No valid crumb was included in request for /ajaxExecutors by admin. Returning 403.
+2023-02-22 03:29:15.511+0000 [id=16]	WARNING	hudson.security.csrf.CrumbFilter#doFilter: Found invalid crumb 21fbc98b59416cb33fe56ee100143704c81899bd38b7f5a87332f4c767c8075a. If you are calling this URL with a script, please use the API Token instead. More information: https://www.jenkins.io/redirect/crumb-cannot-be-used-for-script
+2023-02-22 03:29:15.519+0000 [id=16]	WARNING	hudson.security.csrf.CrumbFilter#doFilter: No valid crumb was included in request for /ajaxBuildQueue by admin. Returning 403.
+2023-02-22 03:29:15.559+0000 [id=19]	WARNING	hudson.security.csrf.CrumbFilter#doFilter: Found invalid crumb 21fbc98b59416cb33fe56ee100143704c81899bd38b7f5a87332f4c767c8075a. If you are calling this URL with a script, please use the API Token instead. More information: https://www.jenkins.io/redirect/crumb-cannot-be-used-for-script
+2023-02-22 03:29:15.559+0000 [id=19]	WARNING	hudson.security.csrf.CrumbFilter#doFilter: No valid crumb was included in request for /ajaxExecutors by admin. Returning 403.
+2023-02-22 03:29:22.971+0000 [id=80]	WARNING	hudson.security.csrf.CrumbFilter#doFilter: Found invalid crumb ccaf28eeea8de439f9a769134fa3ac0a41e5090b98363d7f6c236fd70fa09d31. If you are calling this URL with a script, please use the API Token instead. More information: https://www.jenkins.io/redirect/crumb-cannot-be-used-for-script
+2023-02-22 03:29:22.971+0000 [id=80]	WARNING	hudson.security.csrf.CrumbFilter#doFilter: No valid crumb was included in request for /ajaxExecutors by admin. Returning 403.
+2023-02-22 03:29:27.961+0000 [id=17]	WARNING	hudson.security.csrf.CrumbFilter#doFilter: Found invalid crumb ccaf28eeea8de439f9a769134fa3ac0a41e5090b98363d7f6c236fd70fa09d31. If you are calling this URL with a script, please use the API Token instead. More information: https://www.jenkins.io/redirect/crumb-cannot-be-used-for-script
+2023-02-22 03:29:27.961+0000 [id=17]	WARNING	hudson.security.csrf.CrumbFilter#doFilter: No valid crumb was included in request for /ajaxExecutors by admin. Returning 403.
+2023-02-22 03:29:32.981+0000 [id=13]	WARNING	hudson.security.csrf.CrumbFilter#doFilter: Found invalid crumb ccaf28eeea8de439f9a769134fa3ac0a41e5090b98363d7f6c236fd70fa09d31. If you are calling this URL with a script, please use the API Token instead. More information: https://www.jenkins.io/redirect/crumb-cannot-be-used-for-script
+2023-02-22 03:29:32.981+0000 [id=13]	WARNING	hudson.security.csrf.CrumbFilter#doFilter: No valid crumb was included in request for /ajaxExecutors by admin. Returning 403.
